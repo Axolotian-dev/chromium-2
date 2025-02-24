@@ -1,0 +1,9 @@
+# Node modules and lock files
+node_modules/
+package-lock.json
+
+# Environment files
+.env
+
+# OS-specific files
+.DS_Store
