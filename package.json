@@ -1,0 +1,14 @@
+{
+  "name": "chromium-2",
+  "version": "1.0.0",
+  "description": "A serverless function for launching an isolated instance of Chromium using puppeteer-core and chrome-aws-lambda on Vercel.",
+  "main": "api/chromium.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "vercel"
+  },
+  "dependencies": {
+    "puppeteer-core": "^19.0.0",
+    "chrome-aws-lambda": "^10.0.0"
+  }
+}
